@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuAdd"
+        android:title="Thêm Contact" />
+    <item
+        android:id="@+id/mnuIntro"
+        android:title="Giới thiệu" />
+    <item
+        android:id="@+id/mnuSignin"
+        android:title="Đăng Nhập" />
+    <item
+        android:id="@+id/mnuSignup"
+        android:title="Đăng Ký" />
+</menu>

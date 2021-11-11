@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605340672238",
+    "project_id": "realtimedatabasefirebase-ab898",
+    "storage_bucket": "realtimedatabasefirebase-ab898.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605340672238:android:ad3f2659eb22f3824693ff",
+        "android_client_info": {
+          "package_name": "donduong.dmt.realtimedatabasefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605340672238-me02vhicqblu92pt06ndr1e1k3knaa14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtPFXv24CvAs7LvDBP49p-ZXV1X9NoKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605340672238-me02vhicqblu92pt06ndr1e1k3knaa14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
