@@ -101,6 +101,9 @@ public class MainActivity extends AppCompatActivity {
         else if(item.getItemId() == R.id.mnuSignup){
             startActivity(new Intent(MainActivity.this, SignupActivity.class));
             finish();
+        }else if(item.getItemId() == R.id.mnuSignin){
+            startActivity(new Intent(MainActivity.this, SigninActivity.class));
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }
