@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RealtimeDatabaseFirebase">
         <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="true" />
+        <activity
             android:name=".SignupActivity"
             android:exported="true" />
         <activity

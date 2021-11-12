@@ -76,7 +76,8 @@ public class SignupActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Signin
-
+                startActivity(new Intent(SignupActivity.this, SigninActivity.class));
+                finish();
             }
         });
 
@@ -96,6 +97,12 @@ public class SignupActivity extends AppCompatActivity {
         forget = (Button) findViewById(R.id.signup_btn_Forgetpassword);
         cancel = (Button) findViewById(R.id.signup_btn_Cancel);
         error = (TextView) findViewById(R.id.signup_tv_Error);
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
     }
 }
